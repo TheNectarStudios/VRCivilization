@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: b4cc5a1b013612246bfd3844a2845e92
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nature_straw_darkgrey_01_m_0001
+    second: {fileID: 2800000, guid: ec2adfe7d2f47b64da9481cdc5560d20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nature_straw_darkgrey_01_m_0002
+    second: {fileID: 2800000, guid: e5c5b5757ef677744863f66a6dab6219, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nature_straw_darkgrey_01_m_0003
+    second: {fileID: 2800000, guid: 83ebddf8a7530f346860528766d2fbd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nature_straw_darkgrey_01_m_0004
+    second: {fileID: 2800000, guid: 5a15dbb54300f9646b8e67ea2c4a82dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0001
+    second: {fileID: 2800000, guid: dc256655c18b45b489fb77671108c13d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0002
+    second: {fileID: 2800000, guid: 456d4ee45c63849419bec1a1764fadc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0003
+    second: {fileID: 2800000, guid: 546e3671712d8ea48b201fe9b2110ca1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0004
+    second: {fileID: 2800000, guid: 510cd2ef6e8b24545b6a730d84a16c13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0005
+    second: {fileID: 2800000, guid: 7d4445677123e854892c6211f56df5ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0006
+    second: {fileID: 2800000, guid: c25bc237195b05943ac2658c5c7d7399, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0007
+    second: {fileID: 2800000, guid: b763174b7e06daf4fad2c020cf460d28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stone_lime_03_m_0008
+    second: {fileID: 2800000, guid: 3c1e92cc03eaba34e92cf3b78b2b6463, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0001
+    second: {fileID: 2800000, guid: 4ed2470779849634aa3f5e09815cc25a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0002
+    second: {fileID: 2800000, guid: 1dacc23069eab424abed516bc0c012d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0003
+    second: {fileID: 2800000, guid: fa91fcc3aae319d4eafc5b7c1395be70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0004
+    second: {fileID: 2800000, guid: 541b96788067e3445a25ef6c3853bd70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0006
+    second: {fileID: 2800000, guid: d546cd604a04f26498208437d3200902, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0007
+    second: {fileID: 2800000, guid: fcabda5032fcba14f998c6850e213c9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0008
+    second: {fileID: 2800000, guid: dc1445ba6cb074b43b5efa30e206b8bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0009
+    second: {fileID: 2800000, guid: 76dd336d6b4dab7458400721791b29e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0010
+    second: {fileID: 2800000, guid: ab7d70b9149ca584aa44c054f3bb9575, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0011
+    second: {fileID: 2800000, guid: d6f5672d93e507f479f6e87cf635a99c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0012
+    second: {fileID: 2800000, guid: 8711b6a5168794d4589142921b6692fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0013
+    second: {fileID: 2800000, guid: 74a2fb17ef5e02d43931e644158aad2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0014
+    second: {fileID: 2800000, guid: 92b69aa41503249428766057cfaf4d7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0015
+    second: {fileID: 2800000, guid: 88841bbba2d69b34e87268afdd911d4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0016
+    second: {fileID: 2800000, guid: f868873f6d4eaab4a8b9769f1bcc7d25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood_board_black_orange_01_m_0017
+    second: {fileID: 2800000, guid: 11aa8eb303c2c3647a1464ab2f78f5cc, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
