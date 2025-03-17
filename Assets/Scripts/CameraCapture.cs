@@ -9,13 +9,15 @@ public class CameraCapture : MonoBehaviour
     public RenderTexture renderTexture; // Assign in Inspector
     public string folderName = "CapturedImages"; // Folder to store images
     private int imageCount = 0;
-
-    private string saveFilePath; // Path for saving JSON
+    public string saveFilePath; // Path for saving JSON
 
     private Dictionary<string, List<string>> imageDetails = new Dictionary<string, List<string>>();
 
     void Start()
     {
+        // Ensure dictionary is initialized
+        imageDetails = new Dictionary<string, List<string>>();
+
         // Create directory if it doesn't exist
         string path = Path.Combine(Application.persistentDataPath, folderName);
         if (!Directory.Exists(path))
@@ -47,9 +49,15 @@ public class CameraCapture : MonoBehaviour
 
     void TakeScreenshot()
     {
+        if (captureCamera == null)
+        {
+            Debug.LogError("❌ Capture Camera is NOT assigned!");
+            return;
+        }
+
         if (renderTexture == null)
         {
-            Debug.LogError("RenderTexture is not assigned!");
+            Debug.LogError("❌ RenderTexture is NOT assigned!");
             return;
         }
 
@@ -86,6 +94,13 @@ public class CameraCapture : MonoBehaviour
     List<string> GetObjectsInView()
     {
         List<string> detectedObjects = new List<string>();
+
+        if (captureCamera == null)
+        {
+            Debug.LogError("❌ Capture Camera is NOT assigned in Inspector.");
+            return detectedObjects;
+        }
+
         Plane[] planes = GeometryUtility.CalculateFrustumPlanes(captureCamera);
 
         foreach (ObjectDetails obj in FindObjectsOfType<ObjectDetails>())
@@ -111,7 +126,7 @@ public class CameraCapture : MonoBehaviour
         if (File.Exists(saveFilePath))
         {
             string json = File.ReadAllText(saveFilePath);
-            imageDetails = JsonUtility.FromJson<ImageDataWrapper>(json).data;
+            imageDetails = JsonUtility.FromJson<ImageDataWrapper>(json).data ?? new Dictionary<string, List<string>>();
             Debug.Log("🔄 Image data loaded from: " + saveFilePath);
         }
         else
