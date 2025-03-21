@@ -116,7 +116,14 @@ public class CameraCapture : MonoBehaviour
 
     void SaveImageData()
     {
-        string json = JsonUtility.ToJson(new ImageDataWrapper { data = imageDetails }, true);
+        List<ImageEntry> imageEntries = new List<ImageEntry>();
+
+        foreach (var entry in imageDetails)
+        {
+            imageEntries.Add(new ImageEntry(entry.Key, entry.Value));
+        }
+
+        string json = JsonUtility.ToJson(new ImageDataWrapper { data = imageEntries }, true);
         File.WriteAllText(saveFilePath, json);
         Debug.Log("✅ Image data saved to: " + saveFilePath);
     }
@@ -126,7 +133,17 @@ public class CameraCapture : MonoBehaviour
         if (File.Exists(saveFilePath))
         {
             string json = File.ReadAllText(saveFilePath);
-            imageDetails = JsonUtility.FromJson<ImageDataWrapper>(json).data ?? new Dictionary<string, List<string>>();
+            ImageDataWrapper loadedData = JsonUtility.FromJson<ImageDataWrapper>(json);
+
+            imageDetails = new Dictionary<string, List<string>>();
+            if (loadedData != null && loadedData.data != null)
+            {
+                foreach (var entry in loadedData.data)
+                {
+                    imageDetails[entry.imageName] = entry.detectedObjects;
+                }
+            }
+
             Debug.Log("🔄 Image data loaded from: " + saveFilePath);
         }
         else
@@ -139,10 +156,4 @@ public class CameraCapture : MonoBehaviour
     {
         return imageDetails.ContainsKey(imageName) ? imageDetails[imageName] : new List<string> { "No details found." };
     }
-}
-
-[System.Serializable]
-class ImageDataWrapper
-{
-    public Dictionary<string, List<string>> data;
 }
