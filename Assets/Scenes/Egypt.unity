@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.79508084, g: 0.7055108, b: 0.63881165, a: 1}
+  m_IndirectSpecularColor: {r: 0.79508114, g: 0.7055113, b: 0.6388124, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,6 +180,256 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61da8cdd7d5af2942bbd0f9a25c3ecb4, type: 3}
+--- !u!1 &59601293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59601294}
+  - component: {fileID: 59601298}
+  - component: {fileID: 59601297}
+  - component: {fileID: 59601296}
+  - component: {fileID: 59601295}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59601294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59601293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.584, y: -1.265, z: 1.989}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &59601295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59601293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &59601296
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59601293}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &59601297
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59601293}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &59601298
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59601293}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &110734330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 110734331}
+  - component: {fileID: 110734335}
+  - component: {fileID: 110734334}
+  - component: {fileID: 110734333}
+  - component: {fileID: 110734332}
+  m_Layer: 0
+  m_Name: Cube (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &110734331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110734330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.82, y: -1.26, z: 0.9}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &110734332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110734330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &110734333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110734330}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &110734334
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110734330}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &110734335
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110734330}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &124627478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -249,6 +499,261 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16347647373517c44bc68ad64a22426b, type: 3}
+--- !u!1 &124668383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124668384}
+  - component: {fileID: 124668388}
+  - component: {fileID: 124668387}
+  - component: {fileID: 124668386}
+  - component: {fileID: 124668385}
+  m_Layer: 0
+  m_Name: Cube (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124668384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124668383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.576, y: -1.26, z: 11.95}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &124668385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124668383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &124668386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124668383}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &124668387
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124668383}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &124668388
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124668383}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &142808492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2466185db3a09ae458ffa69efc13e1a5, type: 3}
+  m_PrefabInstance: {fileID: 1423355522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &171549157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 171549158}
+  - component: {fileID: 171549162}
+  - component: {fileID: 171549161}
+  - component: {fileID: 171549160}
+  - component: {fileID: 171549159}
+  m_Layer: 0
+  m_Name: Cube (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &171549158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171549157}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.82, y: -1.26, z: 1.97}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &171549159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171549157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &171549160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171549157}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &171549161
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171549157}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &171549162
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171549157}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &244290501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,13 +937,147 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: -2519092360280523269, guid: 92e223269864a674bad2f32dbcf0358e, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92e223269864a674bad2f32dbcf0358e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1376702882}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 92e223269864a674bad2f32dbcf0358e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1376702881}
   m_SourcePrefab: {fileID: 100100000, guid: 92e223269864a674bad2f32dbcf0358e, type: 3}
 --- !u!4 &415934797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a1f3b446ca6b5c748ad553e641d22b50, type: 3}
   m_PrefabInstance: {fileID: 1702621626}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &437565036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 437565037}
+  - component: {fileID: 437565041}
+  - component: {fileID: 437565040}
+  - component: {fileID: 437565039}
+  - component: {fileID: 437565038}
+  m_Layer: 0
+  m_Name: Cube (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437565037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437565036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.399, y: -0.982, z: 20.966}
+  m_LocalScale: {x: 1, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &437565038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437565036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Tomb of Pharaoh Akheru-Ka
+  description: "This ancient tomb is believed to belong to Pharaoh Akheru-Ka, a forgotten
+    ruler from Egypt\u2019s Lost Dynasty. Legends say he was a king obsessed with
+    achieving immortality, commissioning a hidden chamber beneath his tomb where
+    a mysterious elixir was sealed away. His pyramid was never found, but this burial
+    platform, adorned with sandstone and sacred carvings, marks the entrance to his
+    final resting place.  It is said that Akheru-Ka\u2019s spirit still guards his
+    treasures, and those who dare disturb his slumber will be cursed to wander the
+    desert for eternity. However, within the tomb lies a prophecy\u2014only one with
+    a pure heart and the wisdom of the ancients may claim his secrets without consequence."
+--- !u!65 &437565039
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437565036}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &437565040
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437565036}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &437565041
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437565036}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &461541270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d91e8616efb913f4d9101685e8976863, type: 3}
@@ -538,6 +1177,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &503461894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bf6ad3d1aea0141488e04b45593957c5, type: 3}
+  m_PrefabInstance: {fileID: 1983397294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &539360922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a1f3b446ca6b5c748ad553e641d22b50, type: 3}
+  m_PrefabInstance: {fileID: 1702621626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &539360923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539360922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &539360924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539360922}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.5873733, y: 2.4530127, z: 5.5108695}
+  m_Center: {x: -0.35705924, y: 1.1924003, z: -0.5831287}
 --- !u!1001 &580426820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,6 +1394,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bf6ad3d1aea0141488e04b45593957c5, type: 3}
   m_PrefabInstance: {fileID: 1983397294}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &760394228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503461894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &760394229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503461894}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.2303114, y: 2.8716168, z: 4.7316513}
+  m_Center: {x: -0.077001095, y: 0.9358082, z: 0.5934901}
 --- !u!1001 &785887903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -757,6 +1496,56 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f2fcf431e5f83c459545b47d2913cab, type: 3}
+--- !u!1 &818547594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d91e8616efb913f4d9101685e8976863, type: 3}
+  m_PrefabInstance: {fileID: 1841607861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &818547595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818547594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &818547596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818547594}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.7194993, y: 2.6929889, z: 3.2908678}
+  m_Center: {x: -0.20519412, y: 0.84649444, z: 0.08451986}
 --- !u!1001 &849245934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -814,6 +1603,381 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f2fcf431e5f83c459545b47d2913cab, type: 3}
+--- !u!1 &1008523688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008523689}
+  - component: {fileID: 1008523693}
+  - component: {fileID: 1008523692}
+  - component: {fileID: 1008523691}
+  - component: {fileID: 1008523690}
+  m_Layer: 0
+  m_Name: Cube (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1008523689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008523688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.82, y: -1.26, z: 3.06}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1008523690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008523688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &1008523691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008523688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1008523692
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008523688}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1008523693
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008523688}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1017072982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1017072983}
+  - component: {fileID: 1017072987}
+  - component: {fileID: 1017072986}
+  - component: {fileID: 1017072985}
+  - component: {fileID: 1017072984}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017072983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017072982}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.584, y: -1.26, z: 3.07}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1017072984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017072982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &1017072985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017072982}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1017072986
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017072982}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1017072987
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017072982}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1017746645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1017746646}
+  - component: {fileID: 1017746650}
+  - component: {fileID: 1017746649}
+  - component: {fileID: 1017746648}
+  - component: {fileID: 1017746647}
+  m_Layer: 0
+  m_Name: Cube (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017746646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017746645}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.58, y: -1.26, z: 0.9}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1017746647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017746645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &1017746648
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017746645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1017746649
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017746645}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1017746650
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017746645}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1017985550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -888,11 +2052,476 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 92e223269864a674bad2f32dbcf0358e, type: 3}
   m_PrefabInstance: {fileID: 407642262}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1075832414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1075832415}
+  - component: {fileID: 1075832419}
+  - component: {fileID: 1075832418}
+  - component: {fileID: 1075832417}
+  - component: {fileID: 1075832416}
+  m_Layer: 0
+  m_Name: Cube (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1075832415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075832414}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.319, y: -1.26, z: 11.95}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1075832416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075832414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &1075832417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075832414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1075832418
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075832414}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1075832419
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075832414}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1203430146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1610126272695724307, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+  m_PrefabInstance: {fileID: 1957754147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1203430148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203430146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Ancient Scripts
+  description: "The Great Pharaoh Khepra-Ra, ruler of the golden sands, commands
+    the sun to rise and the Nile to flow. Beneath this stone lies the path to the
+    hidden garden of eternal wisdom, where the sacred ibis whispers secrets of the
+    gods. Only those who walk with the heart of Ma\u2019at shall unlock its gates,
+    while the unworthy shall wander the dunes forever."
+--- !u!64 &1203430149
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203430146}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 226434577753138583, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+--- !u!1 &1229636881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1229636882}
+  - component: {fileID: 1229636886}
+  - component: {fileID: 1229636885}
+  - component: {fileID: 1229636884}
+  - component: {fileID: 1229636883}
+  m_Layer: 0
+  m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1229636882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229636881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.584, y: -1.26, z: 4.11}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1229636883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229636881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &1229636884
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229636881}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1229636885
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229636881}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1229636886
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229636881}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1259859537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2466185db3a09ae458ffa69efc13e1a5, type: 3}
   m_PrefabInstance: {fileID: 1423355522}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1259859538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142808492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &1259859539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142808492}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.447504, y: 5.8917475, z: 6.682965}
+  m_Center: {x: 0.3392477, y: 2.4458737, z: -1.2641656}
+--- !u!1 &1290005954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290005955}
+  - component: {fileID: 1290005959}
+  - component: {fileID: 1290005958}
+  - component: {fileID: 1290005957}
+  - component: {fileID: 1290005956}
+  m_Layer: 0
+  m_Name: Cube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290005955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290005954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.82, y: -1.26, z: 4.11}
+  m_LocalScale: {x: 1.15, y: 0.25, z: 0.43}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598144433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290005956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290005954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphinx Statue
+  description: 'The image features a low-poly sphinx-like statue resting in a rectangular
+    stone enclosure, resembling ancient Egyptian designs. The statue has an elongated
+    lion-like body with front paws extended, though its head is simplified and lacks
+    intricate details. It appears to be made of sandstone or a similar material,
+    fitting a desert or ruins setting. The surrounding structure, composed of stone
+    bricks or slabs, suggests it serves as a protective or ceremonial space. '
+--- !u!65 &1290005957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290005954}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1290005958
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290005954}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1290005959
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290005954}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1322162149
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +2553,7 @@ Transform:
   m_Children:
   - {fileID: 1259859537}
   - {fileID: 1072322239}
-  - {fileID: 2008144098}
+  - {fileID: 1624502218}
   - {fileID: 1415746151}
   - {fileID: 305855070}
   - {fileID: 415934797}
@@ -989,6 +2618,56 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efaafd2793b05b04e9a0fda3f63df187, type: 3}
+--- !u!1 &1376702880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 92e223269864a674bad2f32dbcf0358e, type: 3}
+  m_PrefabInstance: {fileID: 407642262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1376702881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376702880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &1376702882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376702880}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.5454845, y: 5.0712376, z: 7.213974}
+  m_Center: {x: 0.37939167, y: 2.0356188, z: -0.39017677}
 --- !u!4 &1415746151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: efb0aef4b266d5d45b1e8f60ff644461, type: 3}
@@ -1050,8 +2729,19 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: -4906838889796845047, guid: 2466185db3a09ae458ffa69efc13e1a5, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2466185db3a09ae458ffa69efc13e1a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259859539}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2466185db3a09ae458ffa69efc13e1a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259859538}
   m_SourcePrefab: {fileID: 100100000, guid: 2466185db3a09ae458ffa69efc13e1a5, type: 3}
+--- !u!1 &1472508055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
+  m_PrefabInstance: {fileID: 1624502217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1521612704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1153,6 +2843,56 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+--- !u!1 &1573929781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 97a551e913ac64f4aa91c1b6a577646e, type: 3}
+  m_PrefabInstance: {fileID: 1585034196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1573929782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573929781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &1573929783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573929781}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.8144698, y: 2.8937907, z: 8.275502}
+  m_Center: {x: -0.39543176, y: 0.94689536, z: 0.36086512}
 --- !u!1001 &1585034196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1208,7 +2948,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 97a551e913ac64f4aa91c1b6a577646e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1573929783}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 97a551e913ac64f4aa91c1b6a577646e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1573929782}
   m_SourcePrefab: {fileID: 100100000, guid: 97a551e913ac64f4aa91c1b6a577646e, type: 3}
 --- !u!1 &1590534301
 GameObject:
@@ -1302,6 +3048,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1598144433 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+  m_PrefabInstance: {fileID: 1957754147}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1624502217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1358,8 +3109,64 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: -8049376649327151918, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1624502220}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1624502219}
   m_SourcePrefab: {fileID: 100100000, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
+--- !u!4 &1624502218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
+  m_PrefabInstance: {fileID: 1624502217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1624502219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472508055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &1624502220
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472508055}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.571124, y: 3.9343867, z: 8.335147}
+  m_Center: {x: -0.3028264, y: 1.4671934, z: -0.21553946}
 --- !u!1001 &1702621626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1416,8 +3223,64 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6014503084441653313, guid: a1f3b446ca6b5c748ad553e641d22b50, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a1f3b446ca6b5c748ad553e641d22b50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 539360924}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a1f3b446ca6b5c748ad553e641d22b50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 539360923}
   m_SourcePrefab: {fileID: 100100000, guid: a1f3b446ca6b5c748ad553e641d22b50, type: 3}
+--- !u!1 &1705418737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: efb0aef4b266d5d45b1e8f60ff644461, type: 3}
+  m_PrefabInstance: {fileID: 2132624686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1705418738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705418737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525aa0b9c25dc084e859ab8c927cc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Houses
+  description: This structure resembles a traditional mudbrick house from ancient
+    Egyptian or Middle Eastern architecture, commonly found in desert regions. The
+    walls are made of mud or adobe, designed to keep the interior cool by insulating
+    against the intense heat. The flat rooftop with wooden shading suggests a space
+    for social gatherings, drying food, or even sleeping during hot nights. The exterior
+    staircase leading to the upper level indicates a multi-purpose living space,
+    possibly with separate areas for family members, storage, or even livestock. 
+    These types of homes were essential in ancient villages, providing a simple yet
+    effective design suited for the environment. The small windows help with ventilation
+    while keeping the harsh sun out. The ladders and rooftop access hint at a practical
+    lifestyle, where rooftops were an extension of daily living.
+--- !u!65 &1705418739
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705418737}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.3512516, y: 6.162104, z: 7.878067}
+  m_Center: {x: -0.6951895, y: 2.5810525, z: 0.9303646}
 --- !u!1001 &1712294016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1531,8 +3394,79 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 7917349904687423284, guid: d91e8616efb913f4d9101685e8976863, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d91e8616efb913f4d9101685e8976863, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818547596}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d91e8616efb913f4d9101685e8976863, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818547595}
   m_SourcePrefab: {fileID: 100100000, guid: d91e8616efb913f4d9101685e8976863, type: 3}
+--- !u!1001 &1885676582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7687093945115514961, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: cameraObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687093945115514961, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: rightHandRay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7997651618012164562, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_Name
+      value: ActivateTheCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.840023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.224178
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.45004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501427219241459792, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 90844829b26a38b449e1a149b628a1bc, type: 3}
 --- !u!1001 &1934306890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1551,11 +3485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2172164628278651350, guid: 18270a530f87b334d819bdab9074c679, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.179
       objectReference: {fileID: 0}
     - target: {fileID: 2172164628278651350, guid: 18270a530f87b334d819bdab9074c679, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6271014
+      value: -0.627
       objectReference: {fileID: 0}
     - target: {fileID: 2172164628278651350, guid: 18270a530f87b334d819bdab9074c679, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1658,10 +3592,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: scene
       objectReference: {fileID: 0}
+    - target: {fileID: 6917993238507982945, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 59601294}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1017072983}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1229636882}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 437565037}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1075832415}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 124668384}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1290005955}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1008523689}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 171549158}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 110734331}
+    - targetCorrespondingSourceObject: {fileID: -2832868155665539703, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1017746646}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -1610126272695724307, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1203430149}
+    - targetCorrespondingSourceObject: {fileID: -1610126272695724307, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1203430148}
   m_SourcePrefab: {fileID: 100100000, guid: be77687d833d8e74f9e7fca29fd645e0, type: 3}
 --- !u!1 &1975512362
 GameObject:
@@ -1777,13 +3754,14 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 281855664364225751, guid: bf6ad3d1aea0141488e04b45593957c5, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bf6ad3d1aea0141488e04b45593957c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 760394229}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bf6ad3d1aea0141488e04b45593957c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 760394228}
   m_SourcePrefab: {fileID: 100100000, guid: bf6ad3d1aea0141488e04b45593957c5, type: 3}
---- !u!4 &2008144098 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 379f5828deb910f418f6109bb7a5e0a1, type: 3}
-  m_PrefabInstance: {fileID: 1624502217}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2132624686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1840,7 +3818,13 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: -168951756608159995, guid: efb0aef4b266d5d45b1e8f60ff644461, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: efb0aef4b266d5d45b1e8f60ff644461, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1705418739}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: efb0aef4b266d5d45b1e8f60ff644461, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1705418738}
   m_SourcePrefab: {fileID: 100100000, guid: efb0aef4b266d5d45b1e8f60ff644461, type: 3}
 --- !u!1001 &350713590079048087
 PrefabInstance:
@@ -2699,3 +4683,4 @@ SceneRoots:
   - {fileID: 711628073}
   - {fileID: 244290501}
   - {fileID: 1975512364}
+  - {fileID: 1885676582}
