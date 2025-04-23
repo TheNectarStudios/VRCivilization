@@ -5,13 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Harapa.unity
     guid: 194825a0564160541903b29e9b2b04db
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Egypt.unity
     guid: 016c22d414b2826478b0881d2d3d23f4
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/IDZ/GrapplingHookScene.unity
+    guid: c209dd0479086db46836e573dc7f8627
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f45366d7c5900514aa2db50f2f1e3adb, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9cb1bc7bd19c86e4d9b6f3f0494cb045, type: 2}
